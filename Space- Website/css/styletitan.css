@@ -1,0 +1,282 @@
+html { background: #0B0D17;
+  background-image: url(../assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  width: 1440px;
+  height: 900px;
+  margin: auto;
+}
+
+
+a {
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-size: 1rem;
+line-height: 19px;
+letter-spacing: 2.7px;
+text-decoration: none;
+color: #FFFFFF;
+
+
+}
+
+span {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+li {
+  display: inline-block;
+}
+
+h2 {
+  font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 115px;
+color: #FFFFFF;
+margin-top: 71px;
+margin-bottom: 0;
+}
+
+table {
+
+}
+
+
+.desktop {
+  width: 1440px;
+  height: 900px;
+  margin: auto;
+}
+
+
+/**************************TOP BAR********************/
+
+.top-bar {
+  position: absolute;
+width: 1385px;
+height: 96px;
+left: 50px;
+top: 40px;
+right: 5px;
+margin: auto;
+}
+
+/***************** MENU ****************/
+.menu {
+  position: absolute;
+width: 542px;
+height: 19px;
+left: 123px;
+top: 39px;
+margin: 0 0;
+letter-spacing: 48px;
+}
+
+.active {
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 35px;
+
+}
+
+
+
+.line {
+  position: absolute;
+width: 473px;
+height: 1px;
+left: 112px;
+top: 48px;
+margin: 0 0;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.25;
+border-style: none;
+}
+
+.rectangle {
+  position: absolute;
+width: 830px;
+height: 96px;
+left: 555px;
+top: 0px;
+margin: 0 0;
+
+background: #ffffff0a;
+backdrop-filter: blur(81.5485px);
+}
+
+.ball {
+  position: absolute;
+width: 48px;
+height: 48px;
+top: 24px;
+margin: 0 0;
+border-radius: 100%;
+
+background: #FFFFFF;
+}
+
+
+.menu-select:hover {
+   border-bottom: 3px solid #FFFFFF;
+   padding-bottom: 35px;
+   border-color: rgba(255, 255, 255, 0.5);
+   transition: 0.2s;
+}
+
+
+/***********************close top-bar**************************/
+
+/*************************PLANET*******************/
+.pick {
+  position: absolute;
+width: 382px;
+height: 34px;
+top: 212px;
+right:891.5px;
+left: 166.5px;
+margin: auto;
+letter-spacing: 28px;
+display: inline;
+}
+
+.p-1 {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.p-2 {
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 4.725px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.white-space-fix  {
+  margin-right: -6px;
+}
+
+
+.titan {
+  position: absolute;
+width: 445px;
+height: 445px;
+left: 230px;
+top: 343px;
+right: 765px;
+margin: auto;
+}
+
+
+/*************CLOSE PLANET*******************/
+
+
+/********************DESCRIPTION*****************/
+.plantes {
+position: absolute;
+width: 445px;
+height: 472px;
+left: 832px;
+right: 163px;
+top: 310px;
+margin: auto;
+}
+
+.planet-menu {
+  position: absolute;
+left: 0;
+right: 159.5;
+top: 0;
+width: 285.5px;
+height: 34px;
+letter-spacing: 35px;
+white-space: nowrap;
+}
+
+.active-planet {
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 12px;
+}
+
+
+.menu-select-planet:hover {
+   border-bottom: 3px solid #FFFFFF;
+   padding-bottom: 12px;
+   border-color: rgba(255, 255, 255, 0.5);
+   transition: 0.2s;
+}
+
+.planet-p {
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #D0D6F9;
+margin: 14px auto 54px auto;
+}
+
+.line-planet {
+  border-style: none;
+background: #383B4B;
+margin: 0 auto 28px;
+height: 1px;
+}
+
+.li-margin1 {
+  margin-right: 124px;
+}
+.li-margin2 {
+  margin-right: 86px;
+}
+
+.inf {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+  color: #D0D6F9;
+  margin-bottom: 12px;
+}
+
+.data {
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+/**********************CLOSE DESCRIPTION***********************/
